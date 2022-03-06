@@ -1,0 +1,15 @@
+{
+    "require": {
+        "illuminate/container": "^8.83",
+      "ext-pdo": "*",
+        "symfony/console": "^5.4",
+      "ext-json": "*",
+        "psr/event-dispatcher": "^1.0",
+        "phpunit/phpunit": "^9.5"
+    },
+  "autoload": {
+    "psr-4": {
+      "modules\\": "src/modules"
+    }
+  }
+}
